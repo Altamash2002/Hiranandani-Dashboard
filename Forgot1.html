@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(216, 213, 213);
+        }
+
+        .container {
+            background-color: whitesmoke;
+            margin-top: 12%;
+            height: 450px;
+            width: 35%;
+            padding: 5% 5%;
+            border-radius: 10px;
+            box-shadow: 0 0 15px gray;
+
+        }
+
+        p {
+            text-align: center;
+            font-size: 2fr;
+            font-weight: bold;
+            color: rgb(13, 107, 202);
+        }
+
+        #input {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(209, 203, 203);
+            border-radius: 7px;
+            border: none;
+        }
+
+        #label {
+            font-size: 20px;
+        }
+
+        #button {
+            border-radius: 7px;
+            height: 45px;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-white"
+        style="background-color: white; border-bottom: 1px solid rgb(219, 216, 216);">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand text-dark" style="font-weight: 500; font-size: 25px;" href="#">Brand</a>
+
+            <!-- Icons -->
+            <ul class="navbar-nav d-flex flex-row me-1">
+                <li class="nav-item dropstart">
+                    <a class="nav-link dropdown-toggle text-dark" style="font-weight: 500; font-size: 18px;" href="#"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-person-fill"></i>
+                        Profile
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">My Account</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ms-5 ms-lg-0">
+                    <a class="nav-link text-dark" style="font-weight: 500; font-size: 18px;"
+                        href="signin.html"></i>Login</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Container wrapper -->
+    </nav>
+
+    <div class="container">
+        <div>
+            <h1 class="text-center">Forgot Your Password?</h1>
+        </div>
+        <br>
+        <div class="my-3">
+            <div class="my-2">
+                <p>We've sent you an email with a link to reset your password.</p>
+            </div>
+            <br>
+            <div class="text-center mb-4">
+                <span>Didn't get the mail? <a href="">Resend link</a></span>
+            </div>
+            <div class="text-center">
+                <a href="">Back to login</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
