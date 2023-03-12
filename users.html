@@ -1,159 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
 
-    <!-- boostrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <!-- boostrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
 
-    <style>
-        body{
-            background-color:whitesmoke;
-        }
-      #box {
-        background-color: white;
-      }
-    </style>
-    <title>table</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-white"
-        style="background-color: white; border-bottom: 1px solid rgb(219, 216, 216);">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-            <!-- Navbar brand -->
-            <a class="navbar-brand text-dark" style="font-weight: 500; font-size: 25px;" href="#">Brand</a>
+  <style>
+    body {
+      background-color: whitesmoke;
+    }
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="bi bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse d-md-flex flex-md-row me-2 justify-content-end" id="navbarSupportedContent">
-                <!-- Icons -->
-                <ul class="navbar-nav ">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-dark" style="font-weight: 500; font-size: 18px;" href="#"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-person-fill"></i>
-                            Profile</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">My Account</a></li>
-                            <li><a class="dropdown-item" href="#">Logout</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="font-weight: 500; font-size: 18px;"
-                            href="signin.html"></i>Login</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    #box {
+      background-color: white;
+    }
+  </style>
+  <title>table</title>
+</head>
 
-        <!-- Container wrapper -->
-    </nav>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-white"
+    style="background-color: white; border-bottom: 1px solid rgb(219, 216, 216);">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand text-dark" style="font-weight: 500; font-size: 25px;" href="#">Brand</a>
 
-
-    <div class="container mt-5 col-md-8">
-      <h2>Users</h2>
-      <div id="box">
-        <table class="text-center table table-bordered table-hover">
-          <thead class="">
-            <tr>
-              <th>Sr No.</th>
-              <th>Username</th>
-              <th>Role</th>
-              <th>Created at</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Akash</td>
-              <td>User</td>
-              <td>
-                01/02/23
-                <br />
-                11:00
-              </td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Pankaj</td>
-              <td>User</td>
-              <td>
-                04/02/23
-                <br />
-                21:10
-              </td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Vishal</td>
-              <td>User</td>
-              <td>
-                13/02/23
-                <br />
-                16:50
-              </td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Kishan</td>
-              <td>User</td>
-              <td>
-                20/02/23
-                <br />
-                19:01
-              </td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Sarvesh</td>
-              <td>User</td>
-              <td>
-                28/02/23
-                <br />
-                03:46
-              </td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>Shantanu</td>
-              <td>User</td>
-              <td>
-                03/03/23
-                <br />
-                12:22
-              </td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>Soham</td>
-              <td>User</td>
-              <td>
-                08/03/23
-                <br />
-                13:18
-              </td>
-            </tr>
-          </tbody>
-        </table>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse d-md-flex flex-md-row me-2 justify-content-end" id="navbarSupportedContent">
+        <!-- Icons -->
+        <ul class="navbar-nav ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" style="font-weight: 500; font-size: 18px;" href="#"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-person-fill"></i>
+              Profile</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">My Account</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link text-dark" style="font-weight: 500; font-size: 18px;" href="signin.html"></i>Login</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+    <!-- Container wrapper -->
+  </nav>
+
+
+  <div class="container mt-5 col-md-8">
+    <h2>Users</h2>
+    <div id="box">
+      <table class="text-center table table-bordered table-hover">
+        <thead class="">
+          <tr>
+            <th>Sr No.</th>
+            <th>Username</th>
+            <th>Role</th>
+            <th>Created at</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Akash</td>
+            <td>User</td>
+            <td>
+              01/02/23
+              <br />
+              11:00
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Pankaj</td>
+            <td>User</td>
+            <td>
+              04/02/23
+              <br />
+              21:10
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Vishal</td>
+            <td>User</td>
+            <td>
+              13/02/23
+              <br />
+              16:50
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Kishan</td>
+            <td>User</td>
+            <td>
+              20/02/23
+              <br />
+              19:01
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Sarvesh</td>
+            <td>User</td>
+            <td>
+              28/02/23
+              <br />
+              03:46
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Shantanu</td>
+            <td>User</td>
+            <td>
+              03/03/23
+              <br />
+              12:22
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Soham</td>
+            <td>User</td>
+            <td>
+              08/03/23
+              <br />
+              13:18
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
